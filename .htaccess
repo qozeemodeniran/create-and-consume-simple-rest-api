@@ -1,0 +1,3 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule ^Api/rest-api/([0-9a-zA-Z_-]*)$ Api/rest-api.php?order_id=$1 [NC,L]
